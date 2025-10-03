@@ -31,8 +31,13 @@
 
 ### 4. Настройка телефона
 В `config/t30p-provision.cfg` укажите URL автопровижининга и IP/порт RTP.
+Key(Выбираем любую) Type(XML Browser) Value(http://Адрес_Вашего_Сервера/xml/radio_menu.php) Label(Любое вам удобное название)
+## 4.1 Настройка телефона
+Если не хотите использовать автонастройку
+-В веб-морде выбираем " Клавиша DSS"(Dsskey)
 
-## ⚙️ Требования
+
+⚙️ Требования
 - Linux (Debian/Ubuntu/CentOS)
 - ffmpeg
 - Web-сервер с PHP (для `radio.php`)
